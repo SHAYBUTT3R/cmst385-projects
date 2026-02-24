@@ -12,4 +12,5 @@ jobs:
       uses: azure/webapps-deploy@v3
       with:
         app-name: 'cmst385-shughley'  
+        # DELETE the slot-name: 'production' line
         publish-profile: ${{ secrets.APPSERVICECMST385 }}
