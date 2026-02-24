@@ -1,0 +1,102 @@
+/*Body Styles: Background/Text colors and Font Fallbacks */
+body {
+    background-color: #0b0b0b; /*Deep Black */
+    color: #f5f5f5;	      /*Off-White */
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Wrapper/Content Container */
+#container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color; #1a1a1a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Header & Footer Styles */
+header {
+    background: #000;
+    padding: 20px;
+    border-bottom: 3px solid #d4af37; /* Gold accent */   
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    clear: both;
+    margin-top: 20px;
+}
+
+/* Navigation: Centered*/
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* Headings: Color, Font, Alignment, Size */
+h1 {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Paragraph Style: Color, Family, Size, Margin */
+p {
+    color: #cccccc;
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+/* ID Attribute Requirement */
+#main-bio {
+    line-height: 1.8;
+}
+
+/* CLASS Attribute Requirement */
+.album-card {
+    border: 1 px solid #d4af37;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #222;
+}
+
+/* Image Floats & Padding */
+.float-img {
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 5px;
+    border: 1px solid #d4af37;
+    max-width: 100%
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
