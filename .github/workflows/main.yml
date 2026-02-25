@@ -16,8 +16,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v3
       with:
-        # Your specific app name from the Azure portal
-        app-name: 'cmst385-shughley'
-        
-        # We use the ALL CAPS secret name GitHub created
+        # This MUST match the msdeploySite name in your XML exactly
+        app-name: 'CMST385-UMGC-shughley' 
         publish-profile: ${{ secrets.APPSERVICECMST385 }}
